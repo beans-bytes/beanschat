@@ -1,2 +1,18 @@
 #sidebar {
 }
+
+#chat-container{
+  background-image: url("https://simon.red/beanschat/pattern.png") !important;
+  background-size: 35% auto !important;
+  background-repeat: no-repeat !important;
+  background-position-x: calc(100% + 10%) !important;
+  background-position-y: calc(10%) !important;
+}
+
+is(.dark .dark\:bg-gray-900) {
+  background-color: #404040 !important;
+}
+
+:is(.dark .dark\:bg-gray-950) {
+  background-color: #101010 !important;
+}
