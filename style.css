@@ -16,3 +16,7 @@ is(.dark .dark\:bg-gray-900) {
 :is(.dark .dark\:bg-gray-950) {
   background-color: #101010 !important;
 }
+
+[aria-label="Call"],[aria-label="Record voice"],[aria-label="Read Aloud"],[aria-label="Generate Image"],[aria-label="Add Model"], {
+  display: none;
+}
