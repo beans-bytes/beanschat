@@ -35,3 +35,7 @@ is(.dark .dark\:bg-gray-900) {
 [aria-label="Add Model"] {
   display: none !important;
 }
+
+.object-cover{
+  object-fit: contain !important;
+}
