@@ -18,20 +18,20 @@ is(.dark .dark\:bg-gray-900) {
 }
 
 [aria-label="Call"] {
-  display: none;
+  display: none !important;
 }
 
 [aria-label="Record voice"]{
-  display: none;
+  display: none !important;
 }
 
 [aria-label="Read Aloud"]{
-  display: none;
+  display: none !important;
 }
 
 [aria-label="Generate Image"]{
-  display: none;
+  display: none !important;
 }
 [aria-label="Add Model"] {
-  display: none;
+  display: none !important;
 }
