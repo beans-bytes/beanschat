@@ -17,6 +17,21 @@ is(.dark .dark\:bg-gray-900) {
   background-color: #101010 !important;
 }
 
-[aria-label="Call"],[aria-label="Record voice"],[aria-label="Read Aloud"],[aria-label="Generate Image"],[aria-label="Add Model"], {
+[aria-label="Call"] {
+  display: none;
+}
+
+[aria-label="Record voice"]{
+  display: none;
+}
+
+[aria-label="Read Aloud"]{
+  display: none;
+}
+
+[aria-label="Generate Image"]{
+  display: none;
+}
+[aria-label="Add Model"] {
   display: none;
 }
