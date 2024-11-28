@@ -39,3 +39,7 @@ is(.dark .dark\:bg-gray-900) {
 .object-cover{
   object-fit: contain !important;
 }
+
+img[src="/user.png"] {
+  display: none;
+}
