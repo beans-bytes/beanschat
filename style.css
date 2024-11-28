@@ -39,6 +39,10 @@ is(.dark .dark\:bg-gray-900) {
   display: none !important;
 }
 
+.absolute.bottom-8.right-8.z-50 {
+  display: none;
+}
+
 .object-cover{
   object-fit: contain !important;
 }
