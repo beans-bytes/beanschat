@@ -44,6 +44,9 @@ is(.dark .dark\:bg-gray-900) {
 [aria-label="Help"] {
   display: none !important;
 }
+[aria-label="Execute code for analysis"] {
+  display: none !important;
+}
 
 .absolute.bottom-8.right-8.z-50 {
   display: none;
